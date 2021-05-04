@@ -18,15 +18,3 @@ response.on('error', function(){
 }).end();
 }).listen(8000);
 console.log('Server running at localhost:8000');
-package.json
-{
-  "name": "octest",
-  "version": "1.0.0",
-  "description": "test",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC"
