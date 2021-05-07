@@ -1,4 +1,4 @@
-FROM minishift
+FROM docker
 
 RUN node server.js
 
