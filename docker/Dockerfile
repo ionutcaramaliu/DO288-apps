@@ -6,4 +6,4 @@ CMD ["node","server.js"]
 
 COPY server.js C:\Users\IonutCaramaliu
 
-ENTRYPOINT ["C:\Users\IonutCaramaliu\server.js"]
+ENTRYPOINT ["server.js"]
