@@ -1,4 +1,4 @@
-FROM dockerimage
+FROM minishift
 
 RUN node server.js
 
