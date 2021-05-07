@@ -2,8 +2,6 @@ FROM node:14
 
 EXPOSE 3000
 
-COPY server.js C:\Users\IonutCaramaliu
+COPY . .
 
-WORKDIR C:\Users\IonutCaramaliu
-
-ENTRYPOINT ["server.js"]
+CMD ["node","server.js"]
