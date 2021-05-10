@@ -2,6 +2,4 @@ FROM mysql
 
 COPY . .
 
-RUN app install mysql
-
-CMD ["mysql -uuser -p < test.sql"]
+RUN ["mysql -uuser -p < test.sql"]
