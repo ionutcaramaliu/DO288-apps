@@ -7,4 +7,5 @@ ENV MYSQL_PASSWORD pass
 ENV MYSQL_ROOT_PASSWORD pass
 ENV MYSQL_DATABASE testtask
 
-CMD mysql test.sql
+CMD mysql -u user -p pass
+CMD test.sql
