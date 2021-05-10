@@ -7,4 +7,6 @@ ENV MYSQL_PASSWORD pass
 ENV MYSQL_ROOT_PASSWORD pass
 ENV MYSQL_DATABASE testtask
 
-CMD mysql -u user -p pass
+ADD test.sql /docker-entrypoint-initdb.d
+
+CMD mysql -uuser -ppass
