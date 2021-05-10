@@ -2,4 +2,4 @@ FROM mysql
 
 COPY . .
 
-CMD mysql -uuser -p < test.sql
+CMD mysql -uuser -ppass < test.sql
