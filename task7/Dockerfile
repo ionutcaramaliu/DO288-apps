@@ -8,4 +8,4 @@ RUN npm install express
 
 RUN npm install mysql
 
-CMD mysql -uuser -p < test.sql
+CMD ["mysql -uuser -p < test.sql"]
