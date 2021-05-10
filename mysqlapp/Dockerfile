@@ -7,4 +7,4 @@ ENV MYSQL_PASSWORD pass
 ENV MYSQL_ROOT_PASSWORD pass
 ENV MYSQL_DATABASE testtask
 
-CMD test.sql
+CMD ["test.sql"]
