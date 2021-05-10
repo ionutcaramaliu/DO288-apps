@@ -7,5 +7,3 @@ COPY . .
 RUN npm install express
 
 CMD node server.js
-
-CMD mysql -u user -p < test
