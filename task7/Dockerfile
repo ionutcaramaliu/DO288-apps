@@ -1,6 +1,6 @@
 FROM node:14
 
-LABEL taskmysql7
+LABEL taskmysql7 true
 
 EXPOSE 3000
 
