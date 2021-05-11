@@ -1,6 +1,6 @@
 FROM mysql
 
-LABEL taskmysql7
+LABEL taskmysql7 true
 
 COPY . .
 
