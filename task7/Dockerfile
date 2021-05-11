@@ -1,5 +1,7 @@
 FROM node:14
 
+LABEL taskmysql7
+
 EXPOSE 3000
 
 COPY . .
