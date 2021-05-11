@@ -1,5 +1,7 @@
 FROM mysql
 
+LABEL taskmysql7
+
 COPY . .
 
 ENV MYSQL_USER user
